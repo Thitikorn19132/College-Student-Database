@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# สร้างและพัฒนา ฐานข้อมูลครูที่ปรึกษา และนักเรียน นักศึกษา ด้วย Microsoft Access และ Microsoft SQL Server
+ฐานข้อมูลครูที่ปรึกษา และนักเรียน นักศึกษา ภายในแผนกวิชาคอมพิวเตอร์ธุรกิจ วิทยาลัยการอาชีพตากฟ้า
 
-You can use the [editor on GitHub](https://github.com/Thitikorn19132/College-Student-Database/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## ที่มาและความสำคัญ
+>  ในปัจจุบัน คอมพิวเตอร์มีบทบาทสำคัญในหลายๆ องค์กรในการทำงานในด้านต่างๆ โดยเฉพาะสถานศึกษาทั้งในด้านงานเอกสาร การเรียนการสอน และการจัดเก็บข้อมูลต่างๆ ภายในสถานศึกษา     การจัดเก็บข้อมูลนักเรียน นักศึกษานั้น ในหลายๆครั้ง อาจประสบปัญหาทั้งการจัดเก็บข้อมูลนักเรียน นักศึกษา การค้นหาและแก้ไขข้อมูลต่างๆ ที่เกี่ยวกับครูที่ปรึกษา และนักเรียน นักศึกษา เช่น ข้อมูลสูญหาย การแก้ไข และการค้นหาข้อมูลล่าช้าอาจส่งผลให้การดำเนินงานไม่เป็นไปตามที่กำหนด
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Thitikorn19132/College-Student-Database/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+>	Microsoft Access ถูกนำไปใช้งานในระบบฐานข้อมูลได้ในหลากหลายธุรกิจ รองรับการทำงานพร้อมๆ กัน (Concurrent Usage) รองรับการพัฒนาปรับแต่ง และนำไปใช้กับระบบอื่นๆ ได้ สามารถ Import/Export Data ไปยังระบบต่างๆ เช่น Excel, SQL Server, Text File เป็นต้น จึงเหมาะแก่การนำมาพัฒนาระบบฐานข้อมูลภายในสถานศึกษา
+ดังนั้นผู้จัดทำได้ศึกษา ออกแบบและพัฒนาฐานข้อมูลโดยใช้ซอฟต์แวร์อย่าง Microsoft Access 2019 ในการสร้างโปรแกรมที่ใช้เป็นส่วนติดต่อกับผู้ใช้เชื่อมโยงกับฐานข้อมูลกลาง และ Microsoft SQL Server ซึ่งเป็นโปรแกรมจัดเก็บข้อมูล ที่สามารถจัดเก็บข้อมูลในปริมาณมาก เพื่อนำเทคโนโลยีสารสนเทศ มาใช้ในการพัฒนาระบบฐานข้อมูล ที่มีข้อมูล ถูกต้อง ครบถ้วน เป็นการแก้ปัญหาต่างๆ และอำนวยความสะดวกแก่ครูที่ปรึกษาและนักเรียน นักศึกษาของแผนกวิชาคอมพิวเตอร์ธุรกิจ วิทยาลัยการอาชีพตากฟ้า ในการจัดเก็บและจัดการข้อมูลภายในสถานศึกษา จึงมีความคิดริเริ่ม ที่จะสร้างฐานข้อมูลภายใน ที่ใช้ในแผนกวิชาคอมพิวเตอร์ธุรกิจ ในการจัดเก็บ แก้ไข และค้นหาข้อมูลต่างๆ ที่เกี่ยวข้องกับครูที่ปรึกษา และนักเรียน นักศึกษา 
