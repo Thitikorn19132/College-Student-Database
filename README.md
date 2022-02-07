@@ -1,2 +1,2 @@
-# college-student-database
+# Open-Source College Student Database
 ฐานข้อมูลครูที่ปรึกษา และนักเรียน นักศึกษา ภายในแผนกวิชาคอมพิวเตอร์ธุรกิจ วิทยาลัยการอาชีพตากฟ้า
