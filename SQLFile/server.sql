@@ -1,5 +1,3 @@
-﻿USE [master]
-GO
 /****** Object:  Database [college_student_database]    Script Date: 2/7/2022 9:41:07 AM ******/
 CREATE DATABASE [college_student_database]
  CONTAINMENT = NONE
