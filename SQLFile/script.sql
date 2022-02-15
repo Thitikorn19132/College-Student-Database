@@ -1,4 +1,4 @@
-/****** Object:  Database [college_student_database]    Script Date: 2/14/2022 10:49:04 PM ******/
+/****** Object:  Database [college_student_database]    Script Date: 2/15/2022 1:22:57 PM ******/
 CREATE DATABASE [college_student_database]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -78,7 +78,7 @@ ALTER DATABASE [college_student_database] SET QUERY_STORE = OFF
 GO
 USE [college_student_database]
 GO
-/****** Object:  Table [dbo].[Finance]    Script Date: 2/14/2022 10:49:04 PM ******/
+/****** Object:  Table [dbo].[Finance]    Script Date: 2/15/2022 1:22:57 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -89,13 +89,14 @@ CREATE TABLE [dbo].[Finance](
 	[Par_id] [int] NULL,
 	[Fin_Payment] [money] NULL,
 	[Fin_Date] [datetime] NULL,
+	[Fin_Detail] [nvarchar](255) NULL,
  CONSTRAINT [PK_Finance] PRIMARY KEY CLUSTERED 
 (
 	[Fin_id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Parent]    Script Date: 2/14/2022 10:49:05 PM ******/
+/****** Object:  Table [dbo].[Parent]    Script Date: 2/15/2022 1:22:57 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -113,7 +114,7 @@ CREATE TABLE [dbo].[Parent](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Student]    Script Date: 2/14/2022 10:49:05 PM ******/
+/****** Object:  Table [dbo].[Student]    Script Date: 2/15/2022 1:22:57 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -134,7 +135,7 @@ CREATE TABLE [dbo].[Student](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Study]    Script Date: 2/14/2022 10:49:05 PM ******/
+/****** Object:  Table [dbo].[Study]    Script Date: 2/15/2022 1:22:57 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -151,7 +152,7 @@ CREATE TABLE [dbo].[Study](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Subject]    Script Date: 2/14/2022 10:49:05 PM ******/
+/****** Object:  Table [dbo].[Subject]    Script Date: 2/15/2022 1:22:57 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -167,7 +168,7 @@ CREATE TABLE [dbo].[Subject](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Teacher]    Script Date: 2/14/2022 10:49:05 PM ******/
+/****** Object:  Table [dbo].[Teacher]    Script Date: 2/15/2022 1:22:57 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
